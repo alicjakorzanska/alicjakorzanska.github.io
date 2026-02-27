@@ -17,6 +17,12 @@ body {
     background-color: #121212;
 }
 
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
 header {
     height: 45vh;
     display: flex;
