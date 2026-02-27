@@ -9,6 +9,14 @@ body {
     line-height: 1.6;
 }
 
+.main-nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 0;
+    background-color: #121212;
+}
+
 header {
     height: 45vh;
     display: flex;
@@ -47,22 +55,22 @@ footer {
 .contact-buttons {
     display: flex;
     gap: 20px;
-    justify-content: center; /* Wyśrodkowanie przycisków */
+    justify-content: center; 
     margin-top: 30px;
-    flex-wrap: wrap; /* Na małych ekranach przyciski wskoczą jeden pod drugi */
+    flex-wrap: wrap;
 }
 
 .btn-contact {
-    background-color: #ffffff; /* Białe tło jak na zdjęciu */
-    color: #1a1a1a; /* Ciemny napis */
+    background-color: #ffffff; 
+    color: #1a1a1a;
     padding: 12px 30px;
-    border-radius: 50px; /* Efekt "pigułki" */
+    border-radius: 50px; 
     text-decoration: none;
     font-weight: 500;
     font-size: 1.1rem;
-    border: 1px solid #d1d1d1; /* Delikatna obwódka */
-    transition: all 0.3s ease; /* Płynna animacja po najechaniu */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Lekki cień */
+    border: 1px solid #d1d1d1; 
+    transition: all 0.3s ease; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05); 
 }
 
 
@@ -73,10 +81,10 @@ footer {
 }
 
 .typewriter-static {
-    color: #a0a0a0; /* Szary tekst "Hello, I'm" */
+    color: #a0a0a0; 
 }
 
 .typewriter-dynamic {
-    color: #ffffff; /* Biały tekst zmienny */
+    color: #ffffff; 
     font-weight: 800;
 }
