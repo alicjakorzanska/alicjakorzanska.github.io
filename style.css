@@ -27,7 +27,7 @@ body {
 }
 
 header {
-    height: 45vh;
+    height: 20vh;
     display: flex;
     align-items: center;
     background-color: #24292e;
