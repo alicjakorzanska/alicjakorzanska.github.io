@@ -11,26 +11,26 @@ body {
 
 .main-nav {
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content: center; 
+    gap: 20px;               
     padding: 20px 0;
-    background-color: #24292e;
+    background-color: #121212;
     position: sticky;
     top: 0;
     z-index: 1000;
 }
 
 .main-nav a {
-    color: #ffffff;
-    text-decoration: none;
-    background-color: #c794f6;
-    padding: 10px 20px;
-    border-radius: 8px;
-    font-size: 0.85rem;
+    color: #ffffff;          
+    text-decoration: none;   
+    background-color: #252525; 
+    padding: 10px 20px;      
+    border-radius: 8px;      
+    font-size: 0.9rem;
     font-weight: 600;
     text-transform: uppercase;
     transition: all 0.3s ease;
-    border: 1px solid #444;
+    border: 1px solid #444;  
 }
 
 .container {
